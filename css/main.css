@@ -1,0 +1,125 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-color: #FFFFFF;
+    --mailtel-logo-color: rgba(255, 255, 255, 0.6);
+    --hero-footer-color:  #2F303A;
+    --additional-background-color: #f5f4fa;
+    --main-background-color: #fff; 
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    font-family: "Roboto",
+    sans-serif;
+}
+
+.header {
+  background-color: var(--main-background-color);
+}
+
+.hero,
+.footer {
+  background-color: var(--hero-footer-color);
+}
+
+main {
+  background-color: var(--main-background-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.header-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header-list-link:hover,
+.header-list-link:focus  {
+  color: var(--accent-color);
+}
+
+.header-list .header-list-link.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-addres-map {
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--logo-color);
+}
+
+.footer-email,
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--mailtel-logo-footer);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
