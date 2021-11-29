@@ -1,3 +1,142 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --logo-color: #FFFFFF;
+    --mailtel-logo-color: rgba(255, 255, 255, 0.6);
+    --hero-footer-color:  #2F303A;
+    --additional-background-color: #f5f4fa;
+    --main-background-color: #fff; 
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1.7; 
+    color: var(--primary-text-color);
+    background-color: var(--main-background-color);
+}
+
+/* .header {
+  background-color: var(--main-background-color);
+} */
+
+.hero,
+.footer {
+  background-color: var(--hero-footer-color);
+}
+
+/* main {
+  background-color: var(--main-background-color);
+} */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.header-list-link {
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header-list-link:hover,
+.header-list-link:focus  {
+  color: var(--accent-color);
+}
+
+.header-list-link:focus {
+  color: var(--accent-color);
+}
+
+.header-list .header-list-link.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts-link:hover {
+  color: var(--accent-color);
+}
+
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-addres-map {
+  /* font-style: normal; */
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--logo-color);
+}
+
+.footer-address-map:hover {
+    color: var(--logo-color);
+    text-decoration-color: var(--accent-color);
+}
+
+.footer-email,
+.footer-tel {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--mailtel-logo-footer);
+}
+
+.footer-email:hover {
+    color: var(--mailtel-logo-color);
+    text-decoration-color: var(--accent-color);
+}
+
+.footer-tel:hover {
+    color: var(--mailtel-logo-color);
+    text-decoration-color: var(--accent-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 .team {
   background-color: var(--additional-background-color);
 }
@@ -5,7 +144,7 @@
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.4;
   color: var(--logo-color);
   text-align: center;
 }
@@ -13,7 +152,7 @@
 .hero-link {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.9;
   color: var(--main-background-color);
   background-color: var(--accent-color);
 }
@@ -22,7 +161,7 @@
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.9;
   background: var(--accent-color);
   color: var(--logo-color);
   text-align: center;
@@ -30,23 +169,21 @@
 
 .features-item-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .features-item-text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--title-text-color);
+  line-height: 1.7;
+  color: var(--primary-text-color);
 }
 
 .galery-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.2;
   color: var(--title-text-color);
   text-align: center;
 }
@@ -54,7 +191,7 @@
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.2;
   color: var(--title-text-color);
   text-align: center;
 }
@@ -62,14 +199,14 @@
 .team-item-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   color: var(--title-text-color);
 }
 
 .team-item-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   color: var(--primary-text-color);
 }
 
@@ -102,7 +239,7 @@
 .portfolio-item-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   color: var(--primary-text-color);
 }
 
