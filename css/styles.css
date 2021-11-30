@@ -12,6 +12,7 @@
 
 ul {
   list-style: none;
+  font-style: normal;
 }
 
 a {
@@ -88,26 +89,40 @@ body {
   color: var(--accent-color);
 }
 
-.footer-addres-map {
-  /* font-style: normal; */
+/* .footer-addres-map {
   font-weight: 400;
   line-height: 1.7;
   color: var(--logo-color);
-}
+} */
 
-.footer-address-map:hover {
+/* .footer-address-map:hover {
     color: var(--logo-color);
     text-decoration-color: var(--accent-color);
-}
-
+} */
+/* 
 .footer-email,
 .footer-tel {
   font-weight: 400;
   line-height: 1.7;
   color: var(--mailtel-logo-footer);
+} */
+
+.footer-items {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--mailtel-logo-footer);
 }
 
-.footer-email:hover {
+.footer-items:hover {
+    color: var(--mailtel-logo-color);
+}
+
+.footer-items:focus {
+  color: var(--mailtel-logo-color);
+}
+
+
+/* .footer-email:hover {
     color: var(--mailtel-logo-color);
     text-decoration-color: var(--accent-color);
 }
@@ -115,7 +130,7 @@ body {
 .footer-tel:hover {
     color: var(--mailtel-logo-color);
     text-decoration-color: var(--accent-color);
-}
+} */
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
